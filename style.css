@@ -61,3 +61,27 @@ span{
 body{
     background-color: aliceblue(230, 230, 230);
 }
+
+.flex{
+    min-height: 100vh;
+    background-color: aliceblue(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/* Ajustando os itens da pagina */
+
+.item{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.paragrafo{
+    padding: 10px;
+    text-align: justify;
+}
