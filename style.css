@@ -16,7 +16,9 @@ a{
     text-decoration: none;   /* tira o sublinhado do link */
     color:white;           /* Cor do texto */
 }
-
+.body{
+    font-family: 'Poppins', sans-serif;
+}
 /* Define as características do header */
 .header{
     /* Cor de fundo */
